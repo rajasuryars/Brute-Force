@@ -1,0 +1,83 @@
+.navbar .container-fluid {
+    width: 95%;
+}
+
+.navbar-logo {
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Oxanium', cursive;
+    font-size: 40px;
+    margin-top: 8px;
+}
+
+a.dropdown-toggle {
+    font-family: 'Oxanium', cursive;
+    text-decoration: none;
+    font-size: large;
+    color: white !important;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+form.search-bar {
+    margin-left: 30px;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.navbar .dropdown-menu-right { 
+    right: 0; 
+    left: auto; 
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+html, body, section {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+li.right{
+    text-align: right;
+}
+
+.dropdown-item {
+    font-family: 'Oxanium', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#sidebar-wrapper {
+    margin-top: 20px;
+    margin-left: -40px;
+    margin-right: 10px;
+}
+
+.sidebar-heading {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+a.list-group-item {
+    text-align: center;
+}
